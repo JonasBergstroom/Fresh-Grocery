@@ -11,6 +11,7 @@
 		2E4A3C0A2BDC5B6B003D6254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A3C092BDC5B6B003D6254 /* ContentView.swift */; };
 		2E4A3C0C2BDC5B6D003D6254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4A3C0B2BDC5B6D003D6254 /* Assets.xcassets */; };
 		2E4A3C0F2BDC5B6D003D6254 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4A3C0E2BDC5B6D003D6254 /* Preview Assets.xcassets */; };
+		2E4A3C182BDC5C2C003D6254 /* FreshGroceryModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A3C162BDC5C2C003D6254 /* FreshGroceryModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2E4A3C092BDC5B6B003D6254 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E4A3C0B2BDC5B6D003D6254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E4A3C0E2BDC5B6D003D6254 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E4A3C172BDC5C2C003D6254 /* FreshGroceryModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FreshGroceryModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		2E4A3C062BDC5B6B003D6254 /* FreshGrocery */ = {
 			isa = PBXGroup;
 			children = (
+				2E4A3C152BDC5BD4003D6254 /* Manangers */,
 				2E4A3C072BDC5B6B003D6254 /* FreshGroceryApp.swift */,
 				2E4A3C092BDC5B6B003D6254 /* ContentView.swift */,
 				2E4A3C0B2BDC5B6D003D6254 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				2E4A3C0E2BDC5B6D003D6254 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E4A3C152BDC5BD4003D6254 /* Manangers */ = {
+			isa = PBXGroup;
+			children = (
+				2E4A3C162BDC5C2C003D6254 /* FreshGroceryModel.xcdatamodeld */,
+			);
+			path = Manangers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				2E4A3C0A2BDC5B6B003D6254 /* ContentView.swift in Sources */,
 				2E4A3C082BDC5B6B003D6254 /* FreshGroceryApp.swift in Sources */,
+				2E4A3C182BDC5C2C003D6254 /* FreshGroceryModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +356,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E4A3C162BDC5C2C003D6254 /* FreshGroceryModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E4A3C172BDC5C2C003D6254 /* FreshGroceryModel.xcdatamodel */,
+			);
+			currentVersion = 2E4A3C172BDC5C2C003D6254 /* FreshGroceryModel.xcdatamodel */;
+			path = FreshGroceryModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2E4A3BFC2BDC5B6B003D6254 /* Project object */;
 }
